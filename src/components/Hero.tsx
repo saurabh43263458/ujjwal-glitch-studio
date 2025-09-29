@@ -38,14 +38,18 @@ const Hero = () => {
             </Button>
             
             <div className="flex gap-4">
-              <Button variant="outline" size="lg" className="border-neon-blue text-neon-blue hover:bg-neon-blue hover:text-background">
-                <Github className="mr-2 h-5 w-5" />
-                GitHub
+              <Button variant="outline" size="lg" className="border-neon-blue text-neon-blue hover:bg-neon-blue hover:text-background" asChild>
+                <a href="https://github.com/UjjwalAsthana" target="_blank" rel="noopener noreferrer">
+                  <Github className="mr-2 h-5 w-5" />
+                  GitHub
+                </a>
               </Button>
               
-              <Button variant="outline" size="lg" className="border-neon-purple text-neon-purple hover:bg-neon-purple hover:text-background">
-                <Linkedin className="mr-2 h-5 w-5" />
-                LinkedIn
+              <Button variant="outline" size="lg" className="border-neon-purple text-neon-purple hover:bg-neon-purple hover:text-background" asChild>
+                <a href="https://github.com/UjjwalAsthana" target="_blank" rel="noopener noreferrer">
+                  <Linkedin className="mr-2 h-5 w-5" />
+                  LinkedIn
+                </a>
               </Button>
             </div>
           </div>

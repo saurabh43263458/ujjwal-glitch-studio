@@ -26,24 +26,24 @@ const Contact = () => {
               
               <div className="space-y-4">
                 <a 
-                  href="mailto:ujjwal.asthana@email.com" 
+                  href="mailto:asthanaji090304@gmail.com" 
                   className="flex items-center gap-4 p-4 bg-card border border-border rounded-xl hover:border-neon-blue transition-colors duration-300 group"
                 >
                   <Mail className="h-6 w-6 text-neon-blue group-hover:scale-110 transition-transform duration-300" />
                   <div>
                     <div className="font-semibold">Email</div>
-                    <div className="text-muted-foreground">ujjwal.asthana@email.com</div>
+                    <div className="text-muted-foreground">asthanaji090304@gmail.com</div>
                   </div>
                 </a>
                 
                 <a 
-                  href="tel:+1234567890" 
+                  href="tel:+916386185381" 
                   className="flex items-center gap-4 p-4 bg-card border border-border rounded-xl hover:border-neon-purple transition-colors duration-300 group"
                 >
                   <Phone className="h-6 w-6 text-neon-purple group-hover:scale-110 transition-transform duration-300" />
                   <div>
                     <div className="font-semibold">Phone</div>
-                    <div className="text-muted-foreground">+1 (234) 567-890</div>
+                    <div className="text-muted-foreground">+91 6386185381</div>
                   </div>
                 </a>
                 
@@ -62,7 +62,7 @@ const Contact = () => {
               
               <div className="space-y-4">
                 <a 
-                  href="https://github.com/ujjwalasthana" 
+                  href="https://github.com/UjjwalAsthana" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 bg-card border border-border rounded-xl hover:border-neon-blue transition-colors duration-300 group"
@@ -75,7 +75,7 @@ const Contact = () => {
                 </a>
                 
                 <a 
-                  href="https://linkedin.com/in/ujjwal-asthana" 
+                  href="https://github.com/UjjwalAsthana" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 bg-card border border-border rounded-xl hover:border-neon-purple transition-colors duration-300 group"
