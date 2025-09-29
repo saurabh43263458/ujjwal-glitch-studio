@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Download, Gamepad2, Github, Linkedin } from "lucide-react";
+import { Download, Github, Linkedin } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -13,9 +13,6 @@ const Hero = () => {
 
       <div className="container mx-auto px-4 text-center relative z-10">
         <div className="animate-slide-up">
-          <div className="flex justify-center mb-6">
-            <Gamepad2 className="h-16 w-16 text-neon-blue animate-glow-pulse" />
-          </div>
           
           <h1 className="text-6xl md:text-8xl font-bold mb-4 bg-gradient-to-r from-neon-blue to-neon-purple bg-clip-text text-transparent">
             Ujjwal Asthana
