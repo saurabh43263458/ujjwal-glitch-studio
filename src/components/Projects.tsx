@@ -76,17 +76,8 @@ const Projects = () => {
                 <div className="flex gap-2">
                   <Button size="sm" className="flex-1 bg-gradient-to-r from-neon-blue to-neon-purple hover:shadow-lg hover:shadow-neon-blue/50 transition-all duration-300" asChild>
                     <a href={project.link} target="_blank" rel="noopener noreferrer">
-                      {project.title === "Image Tracking Prototype" ? (
-                        <>
-                          <Download className="mr-2 h-4 w-4" />
-                          Download
-                        </>
-                      ) : (
-                        <>
-                          <Play className="mr-2 h-4 w-4" />
-                          Play Now
-                        </>
-                      )}
+                      <Download className="mr-2 h-4 w-4" />
+                      Download
                     </a>
                   </Button>
                   <Button size="sm" variant="outline" className="border-neon-cyan text-neon-cyan hover:bg-neon-cyan hover:text-background" asChild>
