@@ -88,12 +88,7 @@ const Contact = () => {
                 </a>
               </div>
               
-              <div className="mt-8 p-6 bg-gradient-to-r from-neon-blue/10 to-neon-purple/10 border border-neon-blue/30 rounded-xl">
-                <h4 className="font-bold text-neon-cyan mb-2">Open to Opportunities</h4>
-                <p className="text-sm text-muted-foreground">
-                  Currently available for freelance projects, game development collaborations, and full-time positions.
-                </p>
-              </div>
+            
             </div>
           </div>
         </div>
