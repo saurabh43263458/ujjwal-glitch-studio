@@ -12,7 +12,7 @@ const projects = [
     image: arTrackingImage,
     tags: ["Unity", "AR", "Vuforia", "Mobile", "C#"],
     type: "AR Experience",
-    link: "#download"
+    link: "https://drive.google.com/file/d/1QaWz1RvM5MkHUmdHV8Hnx8QDSlFERa5w/view?usp=drivesdk"
   },
   {
     title: "Block Run",
@@ -28,7 +28,7 @@ const projects = [
     image: skyLanderImage,
     tags: ["Unity", "2D", "Physics", "Arcade", "Retro"],
     type: "Space Simulation",
-    link: "#play"
+    link: "https://drive.google.com/file/d/1cWOghjWGEDO4odk7peJsivFD4L0g4qJi/view?usp=drivesdk"
   }
 ];
 
@@ -74,21 +74,25 @@ const Projects = () => {
                 </div>
                 
                 <div className="flex gap-2">
-                  <Button size="sm" className="flex-1 bg-gradient-to-r from-neon-blue to-neon-purple hover:shadow-lg hover:shadow-neon-blue/50 transition-all duration-300">
-                    {project.title === "Image Tracking Prototype" ? (
-                      <>
-                        <Download className="mr-2 h-4 w-4" />
-                        Download
-                      </>
-                    ) : (
-                      <>
-                        <Play className="mr-2 h-4 w-4" />
-                        Play Now
-                      </>
-                    )}
+                  <Button size="sm" className="flex-1 bg-gradient-to-r from-neon-blue to-neon-purple hover:shadow-lg hover:shadow-neon-blue/50 transition-all duration-300" asChild>
+                    <a href={project.link} target="_blank" rel="noopener noreferrer">
+                      {project.title === "Image Tracking Prototype" ? (
+                        <>
+                          <Download className="mr-2 h-4 w-4" />
+                          Download
+                        </>
+                      ) : (
+                        <>
+                          <Play className="mr-2 h-4 w-4" />
+                          Play Now
+                        </>
+                      )}
+                    </a>
                   </Button>
-                  <Button size="sm" variant="outline" className="border-neon-cyan text-neon-cyan hover:bg-neon-cyan hover:text-background">
-                    <ExternalLink className="h-4 w-4" />
+                  <Button size="sm" variant="outline" className="border-neon-cyan text-neon-cyan hover:bg-neon-cyan hover:text-background" asChild>
+                    <a href={project.link} target="_blank" rel="noopener noreferrer">
+                      <ExternalLink className="h-4 w-4" />
+                    </a>
                   </Button>
                 </div>
               </div>
