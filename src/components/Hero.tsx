@@ -30,9 +30,11 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button size="lg" className="bg-gradient-to-r from-neon-blue to-neon-purple hover:shadow-lg hover:shadow-neon-blue/50 transition-all duration-300">
-              <Download className="mr-2 h-5 w-5" />
-              Download Resume
+            <Button size="lg" className="bg-gradient-to-r from-neon-blue to-neon-purple hover:shadow-lg hover:shadow-neon-blue/50 transition-all duration-300" asChild>
+              <a href="/Ujjwal_Asthana_Resume.pdf" download="Ujjwal_Asthana_Resume.pdf">
+                <Download className="mr-2 h-5 w-5" />
+                Download Resume
+              </a>
             </Button>
             
             <div className="flex gap-4">
