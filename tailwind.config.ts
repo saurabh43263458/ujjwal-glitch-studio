@@ -57,6 +57,24 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Gaming theme colors
+        neon: {
+          blue: "hsl(var(--neon-blue))",
+          purple: "hsl(var(--neon-purple))",
+          cyan: "hsl(var(--neon-cyan))",
+        },
+        surface: {
+          dark: "hsl(var(--dark-surface))",
+          darker: "hsl(var(--darker-surface))",
+        },
+      },
+      fontFamily: {
+        mono: ['JetBrains Mono', 'monospace'],
+      },
+      animation: {
+        float: "float 6s ease-in-out infinite",
+        "glow-pulse": "glow-pulse 2s ease-in-out infinite alternate",
+        "slide-up": "slide-up 0.6s ease-out",
       },
       borderRadius: {
         lg: "var(--radius)",
