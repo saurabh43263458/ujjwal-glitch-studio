@@ -4,7 +4,6 @@ import { Progress } from "@/components/ui/progress";
 const skills = [
   { name: "Unity Engine", level: 90, category: "Engine" },
   { name: "C# Scripting", level: 85, category: "Programming" },
-  { name: "Augmented Reality", level: 80, category: "Specialty" },
   { name: "Game Designing", level: 88, category: "Design" },
   { name: "Mobile Game Development", level: 82, category: "Platform" },
   { name: "3D Modeling", level: 75, category: "Art" },
