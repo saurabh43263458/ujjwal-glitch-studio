@@ -35,8 +35,8 @@ const About = () => {
             
             <div className="grid grid-cols-2 gap-4">
               <div className="bg-surface-dark border border-border rounded-lg p-4 text-center">
-                <div className="text-2xl font-bold text-neon-blue">3+</div>
-                <div className="text-sm text-muted-foreground">Projects Completed</div>
+                <div className="text-2xl font-bold text-neon-blue">3</div>
+                <div className="text-sm text-muted-foreground">Projects</div>
               </div>
               <div className="bg-surface-dark border border-border rounded-lg p-4 text-center">
                 <div className="text-2xl font-bold text-neon-purple">AR</div>
