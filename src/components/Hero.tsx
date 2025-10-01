@@ -22,7 +22,7 @@ const Hero = () => {
             Unity Game Developer
           </h2>
           
-          <p className="text-xl text-muted-foreground mb-8 max-w-2xl >Game Developer with hands-on experience in Unity Engine, C#, and gameplay mechanics development. Passionate about building fun, optimized, and player-focused gaming experiences.
+          <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">Game Developer with hands-on experience in Unity Engine, C#, and gameplay mechanics development. Passionate about building fun, optimized, and player-focused gaming experiences.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
