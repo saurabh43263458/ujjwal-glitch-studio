@@ -6,7 +6,6 @@ const skills = [
   { name: "C# Scripting", level: 85, category: "Programming" },
   { name: "Game Designing", level: 88, category: "Design" },
   { name: "Mobile Game Development", level: 82, category: "Platform" },
-  { name: "3D Modeling", level: 75, category: "Art" },
   { name: "UI/UX Design", level: 78, category: "Design" },
   { name: "Version Control (Git)", level: 80, category: "Tools" }
 ];
