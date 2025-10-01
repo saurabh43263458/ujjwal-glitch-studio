@@ -15,7 +15,7 @@ const About = () => {
               <img 
                 src={profileImage} 
                 alt="Ujjwal Asthana - Game Developer"
-                className="relative rounded-2xl w-full max-w-md mx-auto card-glow"
+                className="relative rounded-2xl w-full max-w-sm mx-auto card-glow object-cover aspect-[3/4]"
               />
             </div>
           </div>
