@@ -18,9 +18,9 @@ const projects = [
     title: "Block Run",
     description: "Fast-paced 3D endless runner featuring procedural level generation and dynamic obstacle placement. Minimalist design meets addictive gameplay mechanics in this engaging mini-game experience.",
     image: blockRunImage,
-    tags: ["Unity", "3D", "Mobile", "Procedural", "Game Design"],
+    tags: ["Unity", "3D", "Procedural", "Game Design"],
     type: "Mini Game",
-    link: "#play"
+    link: "https://github.com/UjjwalAsthana/BlockRun"
   },
   {
     title: "Sky Lander",
