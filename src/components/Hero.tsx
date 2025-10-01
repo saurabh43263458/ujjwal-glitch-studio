@@ -23,7 +23,7 @@ const Hero = () => {
           </h2>
           
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Crafting immersive gaming experiences with cutting-edge AR technology and innovative game design
+            Crafting immersive gaming experiences with cutting-edge AR and innovative game design
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
