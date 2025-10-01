@@ -28,8 +28,7 @@ const About = () => {
                 My journey in game development combines technical proficiency with creative innovation to bring immersive digital worlds to life.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Specializing in Unity Engine, C# scripting, and augmented reality development, I focus on delivering polished gaming experiences 
-                that captivate players and push the boundaries of interactive entertainment.
+                As a Unity Game Developer, I’ve been steadily building my skills and experience in game development. I have a good understanding of the Unity Engine and can work with C# scripting to bring ideas to life and giving me a broader perspective on game creation tools.
               </p>
             </div>
             
